@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>subscribe</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <h2>QUORA</h2>
+            <p>Subscribe to Quora and start asking Questions</p>
+            <input type="text" placeholder="Email Address..">
+            <button type="Submit">Subsribe</button>
+            <br>
+            <br>
+            <br>
+            
+                <input type="text" placeholder="@gmail.com">
+                
+
+            </form>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <nav class="navbar navbar-expand-md navbar-light border-bottom p-1 ps-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="text-main-color fw-bold fs-3">quoraa</span>
+    </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>     
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item border-main-color">
+            <a class="nav-link " href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M10 40V24H4L24 6l10 8.85V9h4v9.55L44 24h-6v16H26.5V28h-5v12Zm3-3h5.5V25h11v12H35V19.95l-11-10-11 10Zm5.5-12h11-11Zm1.25-5.5h8.5q0-1.65-1.275-2.725Q25.7 15.7 24 15.7q-1.7 0-2.975 1.075Q19.75 17.85 19.75 19.5Z" height="48" width="48"><path d="M11 39h7.5V26.5h11V39H37V19.5L24 9.75 11 19.5Zm-3 3V18L24 6l16 12v24H26.5V29.5h-5V42Zm16-17.65Z"/></svg>
+
+            </a>
+        </li>
+        <li class="nav-item border-main-color">
+          <a class="nav-link " href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M36.5 28v-6.5H30v-3h6.5V12h3v6.5H46v3h-6.5V28ZM18 23.95q-3.3 0-5.4-2.1-2.1-2.1-2.1-5.4 0-3.3 2.1-5.4 2.1-2.1 5.4-2.1 3.3 0 5.4 2.1 2.1 2.1 2.1 5.4 0 3.3-2.1 5.4-2.1 2.1-5.4 2.1ZM2 40v-4.7q0-1.75.875-3.175Q3.75 30.7 5.4 30q3.75-1.65 6.675-2.325Q15 27 18 27t5.9.675q2.9.675 6.65 2.325 1.65.75 2.55 2.15.9 1.4.9 3.15V40Zm3-3h26v-1.7q0-.8-.45-1.525-.45-.725-1.2-1.075-3.55-1.65-6-2.175Q20.9 30 18 30q-2.9 0-5.375.525T6.6 32.7q-.75.35-1.175 1.075Q5 34.5 5 35.3Zm13-16.05q1.95 0 3.225-1.275Q22.5 18.4 22.5 16.45q0-1.95-1.275-3.225Q19.95 11.95 18 11.95q-1.95 0-3.225 1.275Q13.5 14.5 13.5 16.45q0 1.95 1.275 3.225Q16.05 20.95 18 20.95Zm0-4.5ZM18 37Z"/></svg>
+
+            </a>
+            </li>
+            <li class="nav-item border-main-color">
+              <a class="nav-link " href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M15.45 16.95q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45Zm0 8.55q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45Zm0 8.55q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h23.1l9.9 9.9V39q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V17.55h-8.55V9H9v30ZM9 9v8.55V9v30V9Z"/></svg>
+                </a>
+                </li>
+            <li class="nav-item border-main-color">
+              <a class="nav-link " href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M8 38v-3h4.2V19.7q0-4.1 2.475-7.425T21.2 8.1V6.65q0-1.15.825-1.9T24 4q1.15 0 1.975.75.825.75.825 1.9V8.1q1.25.25 2.525.875t2.225 1.475l-1.075 1.075L29.4 12.6q-1.1-.9-2.525-1.35Q25.45 10.8 24 10.8q-3.75 0-6.275 2.575Q15.2 15.95 15.2 19.7V35h17.65v-7.4h3V35H40v3Zm16 6q-1.65 0-2.825-1.175Q20 41.65 20 40h8q0 1.65-1.175 2.825Q25.65 44 24 44Zm14.5-18v-6.5H32v-3h6.5V10h3v6.5H48v3h-6.5V26Zm-14.45-3.1Z"/></svg> 
+                
+                </a>
+                </li>
+        </ul>
+        <form class="d.flex">
+            <input class="form-control me-2 search-icon" type="search" placeholder="search quoraa">
+        </form>
+        <button class="btn btn-light rounded-pill border border-1 fs-6 text-muted fw-bold" py-1>try Quoraa+</button>
+        <ul class="navbar-nav px-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img class="profile rounded-circle" src="https://images.unsplash.com/photo-1663501427185-cbff9dda9d2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60">
+                </a>
+            </li>
+        </ul>
+        <div class="btn-group">
+            <button id="button1" type="button" class="btn btn-sm bg-main-color fw-bold text-light">Add question</button>
+            <button id="button2" type="button" class="btn btn-sm bg-main-color dropdown-toggle dropdown-toggle-spilt" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">toggle drop</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="a">Action</a></li>
+                <li><a class="dropdown-item" href="a">Another action</a></li>
+             <li><a class="dropdown-item" href="a">Another action</a></li>
+             </ul>
+        </div>
+    </div>
+    </div>
+</nav>
+<div class="bg-light pt-4">
+    <div class="container mb-5">
+        <div class="row">
+            <div id="left-list" class="col-2 d-flex flex-column">
+              <a class="bg-second-color" href="#">
+                <span class="rounded">+</span>
+                <span>create space</span>
+              </a>             
+                <a href="a">
+                   <span class="position-relative me-auto">
+                     <img src="https://images.unsplash.com/photo-1608178398319-48f814d0750c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=579&q=80Adivice">
+                        <span class="position-absolute top=0 start-50 translate-middle ms-1 p-1 bg-danger border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                    </span>
+                    <span>Engineering</span>
+                  </a>
+                  <a href="a">
+                    <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    <span>Artifial intellegence</span>
+                  </a>
+                  <a href="a">
+                    <img src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    <span>Ethical Hacking</span>
+                  </a>
+                  <a href="a">
+                    <img src="https://images.unsplash.com/reserve/7vjJbdDRga27ApDoYicw_Sparks.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    <span>Data Science</span>
+                  </a> <a href="a">
+                    <img src="https://images.unsplash.com/reserve/7vjJbdDRga27ApDoYicw_Sparks.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                    <span>Cyber security</span>
+                  </a>
+                     <a href="a">
+                    <img src="https://media.istockphoto.com/id/1309534694/photo/robot-office-worker.jpg?s=612x612&w=is&k=20&c=lvBuHCEzxgffsBHPWh4tjQ8m5L43M_TAWC7ju7rrwlM=">
+                    <span>Block chain</span>
+                  </a>
+        </div>
+     
+        <div class="col-7">
+  <div class="bg-white border-gray">
+     <div class="row">
+       <div class="col">
+         <img class="profile rounded-circle" src=" https://images.unsplash.com/photo-1668407024372-cdf840d396e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80">
+            <input class="w-75 border-gray text-gray-dark rounded-pill bg-light ps-2 text-start" type="button" value="what do you want to ask or share?"/>  
+         </div>
+       </div>
+      <div class="row text-gray-darker pb-2 ps-4 pe-4">
+           <div class="col text-center border-end hover-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M23.85 35.7q.8 0 1.35-.55t.55-1.35q0-.8-.55-1.35t-1.35-.55q-.8 0-1.35.55t-.55 1.35q0 .8.55 1.35t1.35.55Zm-1.65-7.4h2.85q0-1.55.5-2.525.5-.975 1.75-2.225 1.65-1.65 2.3-2.925.65-1.275.65-2.675 0-2.65-1.7-4.2-1.7-1.55-4.6-1.55-2.55 0-4.375 1.225Q17.75 14.65 16.9 16.8l2.65 1.1q.7-1.4 1.8-2.125 1.1-.725 2.6-.725 1.6 0 2.525.8.925.8.925 2.2 0 1-.55 1.925T25 22.15q-1.85 1.75-2.325 3-.475 1.25-.475 3.15ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h30q1.2 0 2.1.9.9.9.9 2.1v30q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V9H9v30ZM9 9v30V9Z"/></svg>
+             <span>Ask</span>    
+             </div>    
+            <div class="col text-center border-end hover-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M11 44q-1.2 0-2.1-.9Q8 42.2 8 41V7q0-1.2.9-2.1Q9.8 4 11 4h17l12 12v7.8h-3V18H26V7H11v34h15v3Zm0-3V7v34Zm26.8-11.15 1.4 1.4-8.2 8.2V42h2.55l8.2-8.2 1.4 1.4-8.8 8.8H29v-5.35Zm5.35 5.35-5.35-5.35 3.05-3.05q.45-.45 1.05-.45.6 0 1.05.45l3.25 3.25q.45.45.45 1.05 0 .6-.45 1.05Z"/></svg> 
+               <span>answer</span>
+               </div>
+            <div class="col text-center border-end hover-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M9 47.4q-1.2 0-2.1-.9-.9-.9-.9-2.1v-30q0-1.2.9-2.1.9-.9 2.1-.9h20.25l-3 3H9v30h30V27l3-3v20.4q0 1.2-.9 2.1-.9.9-2.1.9Zm15-18Zm9.1-17.6 2.15 2.1L21 28.1v4.3h4.25l14.3-14.3 2.1 2.1L26.5 35.4H18v-8.5Zm8.55 8.4-8.55-8.4 5-5q.85-.85 2.125-.85t2.125.9l4.2 4.25q.85.9.85 2.125t-.9 2.075Z"/></svg>
+               <span>post</span>
+                </div>
+               </div>
+             </div>
+             <div class="post bg-white border-gray mt-4">
+                            <div class="post-title d-flex">
+                <div class="d-flex">
+                  <img class="post-profile rounded-circle" src="https://media.istockphoto.com/id/1257005098/photo/hd-wallpaper-for-mobile-phones.jpg?s=612x612&w=is&k=20&c=DbGna5K-FWU8Fb1MxjSF1RREGeQepNWt5aVwSigurf4=">
+                  <div class="d-flex flex-column">
+                    <span class="fw-bold fs-6">kavya krupa</span>
+                    <span class="text-gray-=darker fs-6">Data analytist</span>
+                     </div>
+                 </div>
+                 <div class="p-2 text-gray-darker">
+                  <button class="btn rounded-circle hover-dark p-1">
+                    
+                  </button>
+                 </div>
+               </div>
+                 <div class="post-body pt-2 ps-3">
+                  <div class="post-title fw-bold">
+                    <a class="text-decoration-none text-black" href="a">
+                       what do you think about engineering field?
+                    </a>
+                  </div>
+                  <div class="post-text pt-1">
+                    An engineer uses science, technology and math to solve problems. We can see engineering everywhere in the world around us; improving the ways we work, travel, communicate, stay healthy, and entertain. Engineers take scientific knowledge and convert it into technology, and then take that technology and convert it into a working solution/innovation.
+                  </div>
+                 </div>
+                 <div class="post-image pt-2 ">
+                  <img class="img-fluid" src="https://media.istockphoto.com/id/844535726/photo/presentation-about-machine-learning-technology-scientist-touching-screen-artificial.jpg?s=1024x1024&w=is&k=20&c=opEmUQT09rtHD8WiX20ufEpA-u8neDRwcJI_B9SkpS0="width="300" height="300">
+                 </div>
+                 <div class="post-footer pt-2 ps-3">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="left-button post-button bg-second-color border-0 text-black p-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M35.9 35.7 15.3 15.1V34h-3V10h24v3H17.4L38 33.6Z"/></svg>
+                      15
+                      <button type="button" class="right-button post-button bg-second-color border-0 text-black p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z"/></svg>
+                        5
+                        <button type="button" class="right-button post-button bg-second-color border-0 text-black p-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M4 44V7q0-1.15.9-2.075Q5.8 4 7 4h34q1.15 0 2.075.925Q44 5.85 44 7v26q0 1.15-.925 2.075Q42.15 36 41 36H12Zm3-7.25L10.75 33H41V7H7ZM7 7v29.75Z"/></svg>
+                    </button>
+                  </div>
+                 </div>
+               
+             </div>
+           </div>
+           <div class="col">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-contenr-between">
+                <div class="">
+                  <img src="https://th.bing.com/th/id/OIP.iqMU2uSsAIA44n6HNrxzNwHaEc?pid=ImgDet&rs=1" width="20" height="20" class="rounded">                 
+                </div>
+                <div class="ps-2"lh-1">
+                <div class="fw-bold">advance programming languages</div>
+                <div class="text-secondary fw-light">c,c++,phyton,java...</div>
+                </div>
+              </li>
+            </ul>
+           </div>
+         </div>
+       </div>
+    </div>
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
